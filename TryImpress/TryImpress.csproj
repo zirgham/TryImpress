@@ -65,11 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\game.css" />
+    <Content Include="index.html" />
+    <Content Include="scripts\lib\game.js" />
+    <Content Include="scripts\lib\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
